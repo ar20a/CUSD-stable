@@ -1,0 +1,148 @@
+{
+  "WETH": {
+    "address": "0x0a24b20912597cAd8a66Bc71EE71ddd86a9722fD",
+    "collateralAdded": true,
+    "parametersSet": true
+  },
+  "VestaETHOracle": {
+    "address": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff"
+  },
+  "WCRO": {
+    "address": "0x0040918e7f2529FdE6631dC104F113Cf84F4891B",
+    "collateralAdded": true,
+    "parametersSet": true
+  },
+  "VestaCROOracle": {
+    "address": "0x2a7bf4493969A0D3a620a65546a56a2E382A6d5D"
+  },
+  "WBTC": {
+    "address": "0x63356929a8F7B8833AF721dE71D4d9c583a9EB85",
+    "collateralAdded": true,
+    "parametersSet": true
+  },
+  "VestaBTCOracle": {
+    "address": "0xe0E05D227320B2849F2377ADeA050343cDEC3074"
+  },
+  "ethPriceFeed": {
+    "address": "0xa3B9Df977eA6B4eA5f85e583A912960A05f02B9a",
+    "tx": "0x79ed982c6b22a569ab9825ee0f207316ac0fdd43d28ad2b9c0c7034a1df7a446",
+    "implementation": "0xBbe63Be733E62995193C68e01163f790E77e71A6",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "croPriceFeed": {
+    "address": "0x047d99EbAb07e822AD145d1B3Fd2588f2031799A",
+    "tx": "0xe0cac6922f3a98788a90e78b1903298c6ab519824218e29635d7dbd5cd0a4540",
+    "implementation": "0xBbe63Be733E62995193C68e01163f790E77e71A6",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "btcPriceFeed": {
+    "address": "0x4A194ebb9d0D47afE62FdB1db10eEcd8AaDAFe59",
+    "tx": "0x617695932a65b7f17796b8b41cc4252ada326faa33ed616ef5fa5024746edb3a",
+    "implementation": "0xBbe63Be733E62995193C68e01163f790E77e71A6",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "sortedTroves": {
+    "address": "0x7243a77d2DDF78b8893463eBF8Dc91EC3d7E9FF1",
+    "tx": "0x83961167e70c5284d734af435a3b8667e7781a22bd8f4b0f5e736b707d0287b1",
+    "implementation": "0xDD922A16b1171cfe3A270Bb0990784a98a0fFF3c",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true
+  },
+  "troveManager": {
+    "address": "0xe25F864CAB50C8D2738ff65Ba1F8bfc2D49d300E",
+    "tx": "0xec322eb7da4d4e8dc177a7bea5dedaa37c8a785be150d330d2953f9e8bc0d7d3",
+    "implementation": "0x5E9293576515EA5931F90C7DB8D73f82DF92E757",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true
+  },
+  "activePool": {
+    "address": "0x45455C4fa5de69F25Edc2a35B543b84E4909C3CA",
+    "initialized": true
+  },
+  "stabilityPool": {
+    "address": "0x2491bD00b8b19B6Df8D67248464192c4A7d8886F",
+    "initialized": true
+  },
+  "gasPool": {
+    "address": "0x91794C8338C54B5D8923A596489e1c41222009B5"
+  },
+  "defaultPool": {
+    "address": "0xe9D1B97938E02dF37f6E6339672Fd8B0C3CAe721",
+    "initialized": true
+  },
+  "collSurplusPool": {
+    "address": "0x775445fc1EFc6c3506F010806A1351f9b5d28363",
+    "initialized": true
+  },
+  "borrowerOperations": {
+    "address": "0xd35Cd8E6f957f0665735DA69b7bA65Bf1CA17F4c",
+    "tx": "0x39f5f085e5fae60aa171128a0553ed020cf8f696d8c89418f41a44bb3ec1e53b",
+    "implementation": "0xE62C542576aad749D80Dc19885F70548b52F14b6",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": false,
+    "addressesSet": true
+  },
+  "hintHelpers": {
+    "address": "0x3894CA9556529E0465C7393B1dD3e08Fb2E1333f",
+    "tx": "0x93309fafb6e105fdf81caacec72fa68934e6f888d442a69b6dece46fac5c1bbd",
+    "implementation": "0x8817325Cb1a072521eE152F41003bA601B2C9719",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "troveManagerLiquidations": {
+    "address": "0xf970B0d7eE3EA96B7A843e30C83A776783198C63",
+    "tx": "0x021864ed2980330dec15f2cb912ca6ef986244b12f1a8c184e6514ac4cdc35a8",
+    "implementation": "0xDaBcF2eE4A36BaE10ED2a11c9626cC5b7feB426A",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true
+  },
+  "troveManagerRedemptions": {
+    "address": "0xfE35E36A7b60508B3574B51C5Ff41924c51C3814",
+    "tx": "0xffda1bb9bbb44723fe681beaa0cbd179552cf880b1f8a192b91f33fba38f620b",
+    "implementation": "0x2aE849B70D03cD151e5147c2B4CeFbC069074C6c",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true
+  },
+  "whitelist": {
+    "address": "0x055CD456352E37d9764b08cF4F6Bb88e8b930317",
+    "tx": "0x79b5cc3e97dfca0814b6ef51bbc0a965ffd724e3eb5e9e7a2dfef45ee550e6fd",
+    "implementation": "0x6122EC93c15bc52452E432d1c8396bBbcAAb91A9",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "ethlinearpricecurve": {
+    "address": "0x0f2f457A370C6d123bE1DA1225B04c9d173Ba657",
+    "tx": "0x8af02817903c81b2b7a475f919e8388ac8d433aeb63185cc3fe03640ffd89bd7",
+    "implementation": "0x0D075Be242Dc439701Fec1fBBcd9373D94BD73d1",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "crolinearpricecurve": {
+    "address": "0x6a9b1C272Cf9CaE70Ce3D21650f2dE586E86208a",
+    "tx": "0x2ce3ce67f554bc49a8e1057b340aeddb883e84e046cc9455080c7e74896c71eb",
+    "implementation": "0x0D075Be242Dc439701Fec1fBBcd9373D94BD73d1",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "btclinearpricecurve": {
+    "address": "0x1B713c443d10310c7d919A7DE8bD839cbf74c688",
+    "tx": "0x824f973f7d1e044301364df41d90fa8350f0bfa61af60658abd8d96caa749982",
+    "implementation": "0x0D075Be242Dc439701Fec1fBBcd9373D94BD73d1",
+    "proxyAdmin": "0x36510221aca6F06edB6814EE1F09D4cccB881166",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "cusdToken": {
+    "address": "0x7f6544AF79c6Db608aFe8fcf4F251e9DfA7c0c17"
+  }
+}
